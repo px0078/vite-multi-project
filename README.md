@@ -1,3 +1,8 @@
+# Vue3 + Typescript + Vite 模板
+
+官方的脚手架模板，改成了可以同时跑和编译 2 个项目
+本来想把现有的 Vue2 项目迁移到 3，发现工作量太大，这个模板留着以后再用
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
