@@ -2,9 +2,12 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview",
-    "serve:editor": "node scripts/serve --name editor"
+    "build": "yarn build:editor & yarn build:site",
+    "serve": "yarn serve:editor & yarn serve:site",
+    "serve:editor": "node scripts/serve --project editor",
+    "build:editor": "node scripts/build --project editor",
+    "serve:site": "node scripts/serve --project site",
+    "build:site": "node scripts/build --project site"
   },
   "dependencies": {
     "vue": "^3.0.5"
