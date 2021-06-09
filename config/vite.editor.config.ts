@@ -13,6 +13,11 @@ export default defineConfig({
   root,
   base: './',
   publicDir: `${root}public`,
+  resolve: {
+    alias: [
+      {find: '@', replacement: root}
+    ]
+  },
   server: {
     host: '127.0.0.1',
     port: 3000
