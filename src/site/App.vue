@@ -6,7 +6,9 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
-import Img from "@/assets/logo.png";
+import Img from "@/site/assets/logo.png";
+
+console.log("img", Img);
 
 export default defineComponent({
   name: "App",

@@ -13,7 +13,7 @@ export default defineConfig({
   base: "./",
   publicDir: `./public`,
   resolve: {
-    alias: [{ find: "@", replacement: root }],
+    alias: [{ find: "@", replacement: path.resolve(process.cwd(), `src/`) }],
   },
   server: {
     host: "127.0.0.1",
